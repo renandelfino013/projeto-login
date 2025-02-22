@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>projeto tela de login</title>
-    <link rel="stylesheet" href="styles/mobile.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  </head>
+  <body>
+    
     <main>
         <div id="imagen">
-
+        
         </div>
-        <h1>
+      <section>
+          <h1>
             <span>Login</span>
-        </h1>
-        <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-        <form id="formLogin">
-            <input type="email" id="email" placeholder="Email" required>
-            <input type="password" id="senha" placeholder="Senha" required>
+          </h1>
+          <p>
+            Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder
+            fazer as configurações no seu ambiente.
+          </p>
+          <form id="formLogin">
+            <div class="divfundo">
+              <span class="material-symbols-outlined">person</span>
+              <input class="inputs" type="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="divfundo">
+              <p>
+                <span class="material-symbols-outlined">key</span>
+                <input class="inputs" type="password" id="senha" placeholder="Senha" required />
+              </p>
+            </div>
             <button type="submit">Entrar</button>
-        </form>
+            <p>
+               <a href="#" class="esqueciSenha">Esqueci minha senha</a>
+            </p>
+          </form>
+      </section>
     </main>
-</body>
+  </body>
 </html>
