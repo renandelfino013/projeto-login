@@ -14,7 +14,7 @@
     --cor01: #548DF0;
     --cor02:#545CF0;
     --cor03:#54BEF0;
-    --cor04:#54EFF0;
+    --cor04:#488BF0;
     --cor05:#7F54F0;
     --cor06:#ACC6F2;
 }
@@ -48,7 +48,6 @@ div#imagem{
     background-position: left bottom;
     width: 100%;
     height: 50%;
-    border-radius: 15px 15px 0px 0px;
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1);
     display: block;
     
