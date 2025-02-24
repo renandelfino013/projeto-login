@@ -1,0 +1,15 @@
+@charset "utf-8";
+body{
+    background-color: #8d5fe9;
+    position: relative;
+    height: 100vh;
+}
+main{
+    max-width: 800px;
+    max-height: 600px;
+}
+section{
+    max-width: 800px;
+    max-height: 600px;
+    background-color: white;
+}
