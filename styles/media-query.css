@@ -9,6 +9,7 @@
     }
 section#login{
     width: 90%;
+    height: 350px;
 }
 div#imagem{
     width: 30%;
@@ -20,6 +21,9 @@ div#imagem{
     float: right;
     height: 100%;
 }
+input{
+    width: 90%;
+}
 }
 /*para grandes telas*/
 
@@ -30,6 +34,7 @@ div#imagem{
     }
 section#login{
     width: 80%;
+    height: 350px;
 }
 div#imagem{
     width: 50%;
@@ -41,4 +46,7 @@ div#imagem{
     float: left;
     height: 100%;
 }
+input{
+    width: 80%;
 }
+};
