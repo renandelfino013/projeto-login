@@ -20,9 +20,9 @@
 }
 body,html {
     background-color:var(--cor02)  ;
-    width: 100dvw;
+    width: 100vw;
     box-sizing: border-box;
-    height: 100dvh;
+    height: 100vh;
 }
 main{
     height: 100dvh;
